@@ -1,0 +1,1 @@
+{"name":"Local: Baekjoon_11003","url":"d:\\coding_test\\C++\\25.04.07-25.04.13\\Baekjoon_11003.cpp","tests":[{"id":1744473524939,"input":"12 3\n1 5 2 3 6 2 3 7 3 5 2 6","output":"1 1 1 2 2 2 2 2 3 3 2 2 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\coding_test\\C++\\25.04.07-25.04.13\\Baekjoon_11003.cpp","group":"local","local":true}

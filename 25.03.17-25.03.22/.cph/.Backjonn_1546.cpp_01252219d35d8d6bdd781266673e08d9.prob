@@ -1,0 +1,1 @@
+{"name":"Local: Backjonn_1546","url":"d:\\coding_test\\C++\\Week_1\\Backjonn_1546.cpp","tests":[{"id":1742650899714,"input":"3\n10 20 30","output":"66.666667"},{"id":1742650939819,"input":"5\n1 2 4 8 16","output":"38.75"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\coding_test\\C++\\Week_1\\Backjonn_1546.cpp","group":"local","local":true}
