@@ -209,6 +209,7 @@ int partition(vector<int> &A, int S, int E) {
     int M = (S + E) / 2;
     swap(A, S, M);
     int pivot = A[S];
+    cout << pivot << "\n";
     int i = S+1, j = E;
 
     while (i <= j) {
@@ -221,6 +222,7 @@ int partition(vector<int> &A, int S, int E) {
         if (i <= j) {
             swap(A, i++, j--);
         }
+        cout << i << " " << j << "\n";
     }
     
     A[S] = A[j];
@@ -240,4 +242,9 @@ void swap(vector<int> &A, int i, int j) {
 // 문제를 다시 읽어보니 정렬을 구현할 필요 없이 quick sort의 아이디어만 구현하면 된다고 이해
 // 직접 구현했으나 연달아 타임아웃으로 실패
 // 교재 코드 그대로 넣어서 성공
-// 교재 코드를 더 공부해보기
+// 하지만 교재 코드도 틀리는 케이스 존재
+// input :
+// 5 2
+// 4 2 5 3 1
+// output : 2
+// 교재 코드를 수정해보자
