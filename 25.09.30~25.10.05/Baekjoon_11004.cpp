@@ -209,20 +209,20 @@ int partition(vector<int> &A, int S, int E) {
     int M = (S + E) / 2;
     swap(A, S, M);
     int pivot = A[S];
-    cout << pivot << "\n";
+    // cout << pivot << "\n";
     int i = S+1, j = E;
 
     while (i <= j) {
         while (pivot < A[j] && j > 0) {
             j--;
         }
-        while (pivot > A[i] && i < A.size() - 1) {
+        while (pivot > A[i] && i < A.size()) {
             i++;
         }
         if (i <= j) {
             swap(A, i++, j--);
         }
-        cout << i << " " << j << "\n";
+        // cout << i << " " << j << "\n";
     }
     
     A[S] = A[j];
